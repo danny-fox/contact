@@ -10,7 +10,7 @@ In a nutshell the form consists of:
 * A PHP file with server side validation in, which sends a response back to the view
 * Needed assets (images, fonts, etc)
 
-Forgot to mention on the CV that I could do Ajax, but that's my usual go to for updating a view. I chose this as I like the user experience of not reloading the page (or being linked to a seperate one). With the small amounts of data being passed around I felt this was entirely suitable for the task.
+Forgot to mention on the CV that I could do Ajax, but that's my usual go to for updating a view. I chose this as I like the user experience of not reloading the page (or being linked to a seperate one). With the small amounts of data being passed around I felt this was entirely suitable for the task. As for JavaScript functions, I use jQuery entirely. It's something I'm completely familiar with and makes JavaScript much nicer to read/code.
 
 As for the design. I kept it very simple and in line with your current website (colours, fonts, etc), to keep the Lisa Angel branding consistent. I wasn't sure if this was aimed to be a contact form on the site, or it's own portal sort of thing. If it was part of the site, headers and footers would obviously be included in there.
 
