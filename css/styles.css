@@ -1,0 +1,32 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url('../fonts/Quicksand-Regular.woff2') format('woff2');
+}
+
+* {box-sizing:border-box; font-family:'Quicksand', sans-serif;}
+body {color:#666; font-size:14px; margin:0; background:#f2f2f2; padding:20px;}
+h1, h2, h3, h4, h5, h6 {color:#636E75;}
+.grey-button {color:#fff; font-weight:400; margin-top:20px; background:#666; font-size:1.2em; padding:0.5em 2.8em; display:inline-block; cursor:pointer; border:0; outline:0;}
+
+section.contact-form, header {width:100%; max-width:640px; margin:0 auto; padding:5px 20px 0; background:#fff;}
+section.contact-form {padding-bottom:20px;}
+header img {margin:0 auto; width:100%;  max-width:220px; display:block; margin-top:15px;}
+.input-container, .checkbox-container {position:relative; margin-top:28px;}
+.input-container input, .input-container textarea {padding:0.4em; width:100%; font-size:1.0em; font-family:'Quicksand'; color:#666; border:1px solid #666; outline:0;}
+.input-container input.validation-fail, .input-container textarea.validation-fail {border-color:#d00; outline:1px solid #d00;}
+.input-container label {position:absolute; padding:0.4em 0 0 0.6em; pointer-events:none; transition:all 0.25s;}
+.input-container.filled label {margin-top:-1.7em; font-size:0.8em;}
+.checkbox-container label, .privacy-policy-trigger {line-height:1.2em; vertical-align:middle; cursor:pointer;}
+.privacy-policy-trigger {border-bottom:1px solid #666;}
+.checkbox-container input {position:absolute; height:0; width:0; opacity:0; margin:0;}
+.checkbox {height:1em; width:1em; border:1px solid #666; display:inline-block; vertical-align:middle; margin-right:5px;}
+.checkbox-container input:checked ~ .checkbox {background-image:url('../img/tick.png'); background-size:12px; background-repeat:no-repeat; background-position:center;}
+.form-message {width:100%; padding:6px; color:#fff; text-align:center; margin-top:10px; clear:both;}
+.form-message span {text-transform:capitalize;}
+.form-message.fail {background-color:#d00;}
+.form-message.success {background-color:#00b935;}
+
+section.privacy-policy-popup {position:fixed; display:none; align-items:center; justify-content:center; flex-direction: column; top:0; left:0; height:100%; width:100%; padding:15px;}
+.privacy-policy-background {position:absolute; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.7);}
+.privacy-policy-container {position:relative; z-index:2; background:#fff; padding:10px 20px 30px; max-width:450px; width:100%;}
+
